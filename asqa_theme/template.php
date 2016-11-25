@@ -49,7 +49,9 @@ function asqa_theme_preprocess_html(&$variables, $hook) {
  */
 function asqa_theme_preprocess_page(&$variables, $hook) {
   global $base_url;
-  $variables['logo'] = image_style_url('image_and_text_bean_large', str_replace($base_url . '/sites/default/files/', 'public://' , $variables['logo']));
+
+  $variables['logo'] = image_style_url('image_and_text_bean_large', str_replace($base_url . '/' . variable_get('file_public_path', conf_path() . '/files') , 'public://', $variables['logo']));
+
 }
 
 /**
