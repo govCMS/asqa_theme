@@ -1,0 +1,71 @@
+//
+// @file
+// Styles controlling the header region of the site.
+//
+
+.navigation__wrapper, .region-navigation {
+  background-color: $primaryColour;
+}
+
+.region-navigation .block__content {
+  & > .menu {
+    @media (min-width: $medium) and (max-width: $large) {
+      display: none!important;
+    }
+  }
+  & > .tinynav {
+    @media (min-width: $medium) and (max-width: $large) {
+      display: block!important;
+      margin: 10px 0;
+    }
+  }
+}
+
+.region-navigation .block__content > .menu {
+  text-transform: none;
+  background-color: $primaryColour;
+  & > li {
+    & ul {
+      // Force SF to display dropdowns at width of contents.
+      width: auto!important;
+    }
+  }
+}
+
+.region-navigation .block__content>.menu>li>u
+
+.header__secondary-menu-list {
+  li {
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      border-left: 1px solid #444;
+      height: 1em;
+      top: 5px;
+      left: 1em;
+      position: absolute;
+    }
+
+    &:first-child {
+      &:before {
+        border: 0;
+      }
+    }
+
+    @media (min-width: $medium) {
+      padding-left: 36px;
+    }
+  }
+}
+
+/*
+Main menu
+Hide about link so that we can keep it in the menu system without it appearing
+in the top nav.
+*/
+
+#menu-4320-1 {
+  display: none;
+}

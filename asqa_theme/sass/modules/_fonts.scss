@@ -1,0 +1,42 @@
+//
+// @file
+// Font overrides.
+//
+
+h1, h2, h3, h4, h5 {
+  a {
+    font-family: $tradegothic-bold;
+  }
+}
+
+h1 {
+  color: map-get($colors, 'primary1');
+}
+
+h2 {
+  color: map-get($colors, 'primary2');
+}
+
+.page-node {
+  .node-media-release,
+  .node-news-article,
+  .node-publication {
+    .date-display-single {
+      font-family: $tradegothic-bold;
+      font-size: 1.67rem;
+      line-height: 2.9333rem;
+      margin: -4px 0 8px;
+    }
+  }
+  .node-news-article {
+    .date-display-single {
+      margin-bottom: .58667rem;
+    }
+  }
+}
+
+.section-standards {
+  h1 {
+    color: map-get($colors, 'secondary2');
+  }
+}
