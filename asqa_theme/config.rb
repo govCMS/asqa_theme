@@ -11,6 +11,7 @@
 require 'breakpoint'
 require 'sass-globbing'
 require 'zen-grids'
+require 'color'
 
 # this might help..
 # add_import_path "sass/base/"

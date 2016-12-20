@@ -1,28 +1,8 @@
 .list-unstyled { margin: 0; padding: 0; list-style-type: none; list-style-image: none }
-@font-face {
-  font-family: 'TradeGothicLT';
-  src: url('../fonts/TradeGothicLT.eot?1416195844');
-  src: url('../fonts/TradeGothicLT.eot?&1416195844#iefix') format("embedded-opentype"), url('../fonts/TradeGothicLT.woff?1416195844') format("woff"), url('../fonts/TradeGothicLT.ttf?1416195844') format("truetype"), url('../fonts/TradeGothicLT.svg?1416195844#TradeGothicLT') format("svg");
-  font-weight: normal;
-  font-style: normal
-}
-@font-face {
-  font-family: 'TradeGothicLT-Bold';
-  src: url('../fonts/TradeGothicLT-Bold.eot?1416195844');
-  src: url('../fonts/TradeGothicLT-Bold.eot?&1416195844#iefix') format("embedded-opentype"), url('../fonts/TradeGothicLT-Bold.woff?1416195844') format("woff"), url('../fonts/TradeGothicLT-Bold.ttf?1416195844') format("truetype"), url('../fonts/TradeGothicLT-Bold.svg?1416195844#TradeGothicLT-Bold') format("svg");
-  font-weight: normal;
-  font-style: normal
-}
-@font-face {
-  font-family: 'TradeGothicLT-Oblique';
-  src: url('../fonts/TradeGothicLT-Oblique.eot?1416195844');
-  src: url('../fonts/TradeGothicLT-Oblique.eot?&1416195844#iefix') format("embedded-opentype"), url('../fonts/TradeGothicLT-Oblique.woff?1416195844') format("woff"), url('../fonts/TradeGothicLT-Oblique.ttf?1416195844') format("truetype"), url('../fonts/TradeGothicLT-Oblique.svg?1416195844#TradeGothicLT-Oblique') format("svg");
-  font-weight: normal;
-  font-style: normal
-}
+
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box }
 html { font-size: 93.75%; line-height: 1.46667em }
-html { font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100% }
+//html { font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100% }
 body { margin: 0; padding: 0; background: #f5f5f5; color: #444 }
 @media print {
   body { color: #231f20; background: transparent }
@@ -32,13 +12,7 @@ audio, canvas, progress, video { display: inline-block; vertical-align: baseline
 audio:not([controls]) { display: none; height: 0 }
 [hidden] { display: none }
 template { display: none }
-h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__statement, h3, h4, h5, h6 { font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; font-weight: normal; color: #231f20 }
-h1 { font-size: 30px; font-size: 2rem; line-height: 40px; line-height: 2.67rem; margin: -4px 0 20px }
-h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__statement { font-size: 25px; font-size: 1.667rem; line-height: 28px; line-height: 1.87rem; margin: 1px 0 16px }
-h3 { font-size: 19px; font-size: 1.27rem; line-height: 20px; line-height: 1.75rem; margin: -4px 0 14px }
-h4 { font-size: 15px; font-size: 1rem; line-height: 20px; line-height: 1.25rem; margin: -4px 0 11px }
-h5 { font-size: 12px; font-size: .8rem; line-height: 15px; line-height: 1rem; margin: 0 0 9px; margin: 0 0 .6rem }
-h6 { font-size: 12px; font-size: .8rem; line-height: 15px; line-height: 1rem; margin: 0 0 9px; margin: 0 0 .6rem }
+
 :link { color: #3e90cc; text-decoration: underline; background-color: transparent }
 :visited { color: #875e80 }
 a:hover, a:focus, a:active { color: #408ebf; outline: 0 }
@@ -98,6 +72,8 @@ caption { padding: 10px 15px }
 td { border: 1px solid #e2e2e2; padding: 10px 15px }
 th { border: 1px solid #e2e2e2; padding: 10px 15px; background-color: #f5f5f5; font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; font-weight: normal; text-align: left }
 th a, th img { display: inline-block }
+
+
 .layout-centered { margin-left: auto; margin-right: auto }
 @media (min-width: 720px) {
   .layout-centered { max-width: 720px }
@@ -531,7 +507,7 @@ tr.selected td { background: #ffc }
 .slide-show__slide:first-child, #block-views-slideshow-block .rslides li:first-child { display: block }
 .slide-show__slide-left, #block-views-slideshow-block .group-left { max-height: 351px }
 @media (min-width: 980px) {
-  .slide-show__slide-left, #block-views-slideshow-block .group-left { float: left; width: 620px; height: 320px }
+  .slide-show__slide-left, #block-views-slideshow-block .group-left { float: left; width: 620px; }
 }
 .slide-show__slide-right, #block-views-slideshow-block .group-right { padding: 20px }
 @media (min-width: 980px) {
