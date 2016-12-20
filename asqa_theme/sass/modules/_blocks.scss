@@ -1,7 +1,6 @@
-//
-// @file
-// Styles for blocks on the page.
-//
+@import '../variables';
+@import '../base';
+@import '../mixins';
 
 @mixin landing_panel_arrow($color) {
   .bean-image-and-text.landing_page {
@@ -84,5 +83,14 @@
     .panels-ipe-portlet-wrapper:nth-child(4n + 4) {
       @include landing_panel_arrow(map-get($colors, 'secondary3'));
     }
+  }
+}
+
+.mission__statement {
+  margin-left: 125px;
+
+  p {
+    font-family: $tradegothic;
+    color: map_get($colors, primary1);
   }
 }
