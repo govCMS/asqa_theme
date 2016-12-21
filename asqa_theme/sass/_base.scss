@@ -31,7 +31,7 @@ ol { padding: 0 0 0 45px; list-style-type: decimal }
 ol ol { list-style-type: lower-alpha }
 ol ol ol { list-style-type: lower-roman }
 abbr[title] { border-bottom: 1px dotted }
-b, strong { font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; font-weight: normal }
+b, strong { font-weight: bold }
 dfn { font-style: italic }
 mark { background: #ff0; color: #231f20 }
 small { font-size: 80% }
@@ -144,7 +144,7 @@ div.workbench-info-block { padding: 1em }
 .bean-image-and-text.default h2 { font-size: 16px; font-size: 1.06667rem; line-height: 22px; line-height: 1.46667rem; margin-top: 0 }
 .bean-image-and-text.default .field-type-image { float: left; margin-right: 15px }
 .bean-image-and-text.default p { margin: 0 }
-.breadcrumb { font-size: 12px; font-size: 0.8rem; line-height: 22px; line-height: 1.46667rem; margin: 0 20px; border-bottom: 2px solid #231f20; padding: 16px 0 }
+.breadcrumb { font-size: 15px; line-height: 22px; line-height: 1.46667rem; margin: 0 20px; padding: 16px 0 }
 @media print {
   .breadcrumb { visibility: hidden; display: none }
 }
@@ -492,7 +492,7 @@ tr.selected td { background: #ffc }
 .menu-block-govcms_menu_block-sidebar .menu .menu__link:hover { text-decoration: underline; color: #3e90cc }
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.visited:hover { color: #875e80 }
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail { font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
-.menu-block-govcms_menu_block-sidebar .menu .menu__link.active { border-left: 5px solid #e41b3f; padding-left: 15px }
+.menu-block-govcms_menu_block-sidebar .menu .menu__link.active { border-left: 5px solid map_get($colors, 'secondary1'); padding-left: 15px }
 .menu-block-govcms_menu_block-sidebar .menu .menu__item { background-color: #f5f5f5 }
 .menu-block-govcms_menu_block-sidebar .menu .menu__item.is-active-trail { background-color: #fff }
 .menu-block-govcms_menu_block-sidebar .menu .menu__item.is-active-trail .menu__item { background-color: #fff }

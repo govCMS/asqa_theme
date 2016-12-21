@@ -13,7 +13,7 @@ gulp.task('sass', function() {
   return gulp.src('sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     // minimise CSS
-    .pipe(gulpIf('*.css', cssnano()))
+    // .pipe(gulpIf('*.css', cssnano()))
     .pipe(gulp.dest('css'))
     .pipe(bs.stream());
 });
