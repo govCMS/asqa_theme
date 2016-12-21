@@ -30,6 +30,19 @@
   }
 }
 
+.view-publications {
+  article {
+    padding-bottom: 15px;
+    border-bottom: 1px solid map_get($colors, 'border-light');
+    margin-bottom: 0;
+
+    .links {
+      float: left;
+      margin-top: 10px;
+    }
+  }
+}
+
 .view-id-media_releases {
   .views-row {
     @extend %divider;

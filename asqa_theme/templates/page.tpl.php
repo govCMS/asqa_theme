@@ -7,26 +7,25 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
+<nav class="header__secondary-menu" role="navigation">
+  <?php print theme('links__system_secondary_menu', array(
+    'links' => $secondary_menu,
+    'attributes' => array(
+      'class' => array(
+        'header__secondary-menu-list',
+      ),
+    ),
+    'heading' => array(
+      'text' => isset($secondary_menu_heading) ? $secondary_menu_heading : '',
+      'level' => 'h2',
+      'class' => array('element-invisible'),
+    ),
+  )); ?>
+</nav>
 
 <div class="layout-centered page-wrapper">
   <header class="header" role="banner">
     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
-
-    <nav class="header__secondary-menu" role="navigation">
-      <?php print theme('links__system_secondary_menu', array(
-        'links' => $secondary_menu,
-        'attributes' => array(
-          'class' => array(
-            'header__secondary-menu-list',
-          ),
-        ),
-        'heading' => array(
-          'text' => isset($secondary_menu_heading) ? $secondary_menu_heading : '',
-          'level' => 'h2',
-          'class' => array('element-invisible'),
-        ),
-      )); ?>
-    </nav>
 
     <?php print render($page['header']); ?>
   </header>

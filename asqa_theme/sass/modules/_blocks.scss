@@ -12,6 +12,12 @@
   }
 }
 
+.bean-image-and-text.landing_page h2,
+.bean-image-and-text.landing_page h2 a {
+  font-family: $tradegothic;
+  font-weight: bold;
+}
+
 .panel-3col-33-stacked {
   .panel-col {
     .inside {
@@ -86,11 +92,18 @@
   }
 }
 
-.mission__statement {
+// Mission statement
+.mission {
   margin-left: 125px;
+  font-family: $arial;
+
+  .mission__title {
+    font-weight: normal;
+    font-size: 18px;
+  }
 
   p {
-    font-family: $tradegothic;
-    color: map_get($colors, primary1);
+    font-size: $h1-font-size;
+    color: darken(map_get($colors, primary1), 20%);
   }
 }

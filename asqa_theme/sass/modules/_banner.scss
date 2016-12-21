@@ -1,7 +1,6 @@
-//
-// @file
-// Styles controlling the header region of the site.
-//
+@import 'variables';
+@import 'base';
+@import 'mixins';
 
 .navigation__wrapper, .region-navigation {
   background-color: $primaryColour;
@@ -32,30 +31,63 @@
   }
 }
 
-.region-navigation .block__content>.menu>li>u
+// Secondary navigation styles
+.header__secondary-menu {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  float: none;
+  padding: 15px 0;
+  max-width: none;
+  background-color: map_get($colors, 'primary3');
+
+  ul {
+    max-width: 100%;
+    margin: auto;
+    padding-right: $gutter;
+
+    @media (min-width: $medium) {
+      max-width: $medium;
+      padding-right: 0;
+    }
+
+    @media (min-width: $large) {
+      max-width: $large;
+    }
+
+    @media (max-width: $small) {
+      padding-right: 0;
+    }
+  }
+}
 
 .header__secondary-menu-list {
+  padding-right: $gutter;
+
   li {
     position: relative;
-
-    &:before {
-      content: '';
-      display: block;
-      border-left: 1px solid #444;
-      height: 1em;
-      top: 5px;
-      left: 1em;
-      position: absolute;
-    }
+    padding-left: 5px;
 
     &:first-child {
       &:before {
         border: 0;
       }
     }
+    a {
+      &:visited,
+      &:link {
+        color: map_get($colors, 'footer-links');
+        display: block;
+        padding: 3px 10px;
+      }
+      &:hover {
+      }
+    }
 
-    @media (min-width: $medium) {
-      padding-left: 36px;
+    @media (max-width: $small) {
+      padding-left: 0;
+      margin-bottom: 3px;
     }
   }
 }
