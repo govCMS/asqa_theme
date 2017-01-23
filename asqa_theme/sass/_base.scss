@@ -57,20 +57,20 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
 input[type="search"] { -webkit-appearance: textfield }
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none }
 fieldset { margin: 0 2px 1em 0; border: 1px solid #e2e2e2; padding: 0 10px }
-label { display: block; font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
-legend { border: none; margin-left: -5px; padding: 0 5px; color: #4b4b4b; font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+label { display: block; font-family: $tradegothic; font-weight: bold; }
+legend { border: none; margin-left: -5px; padding: 0 5px; color: #4b4b4b; font-family: $tradegothic; font-weight: bold; }
 legend a:link, legend a:visited, legend a:active, legend a:hover, legend a:focus { color: #4b4b4b }
 select { height: 40px; border: 1px solid #e2e2e2; padding: 0 11px; text-transform: none }
 select[multiple] { height: auto }
 select:focus { border-color: #1675bc }
 textarea { overflow: auto; border: 1px solid #e2e2e2 }
 textarea:focus { border-color: #1675bc; outline: 0 }
-optgroup { font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+optgroup { font-family: $tradegothic; font-weight: bold; }
 optgroup option { font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif }
 table { border-collapse: collapse; border-spacing: 0; border: 1px solid #e2e2e2; width: 100%; margin: 0 0 22px; margin: 0 0 1.46667rem }
 caption { padding: 10px 15px }
 td { border: 1px solid #e2e2e2; padding: 10px 15px }
-th { border: 1px solid #e2e2e2; padding: 10px 15px; background-color: #f5f5f5; font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; font-weight: normal; text-align: left }
+th { border: 1px solid #e2e2e2; padding: 10px 15px; background-color: #f5f5f5; font-family: $tradegothic; text-align: left }
 th a, th img { display: inline-block }
 
 
@@ -139,7 +139,7 @@ div.workbench-info-block { padding: 1em }
 @media (min-width: 720px) {
   .bean-image-and-text.highlight .field { float: left; width: 50% }
 }
-.bean-image-and-text.highlight .field-type-text-long { padding: 0 15px; font-size: 14px; font-size: 0.93333rem; line-height: 22px; line-height: 1.46667rem; font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+.bean-image-and-text.highlight .field-type-text-long { padding: 0 15px; font-size: 14px; font-size: 0.93333rem; line-height: 22px; line-height: 1.46667rem; font-family: $tradegothic; font-weight: bold; }
 .bean-image-and-text.default { border-top: solid 1px #f5f5f5; padding: 15px 0; margin: 0 }
 .bean-image-and-text.default h2 { font-size: 16px; font-size: 1.06667rem; line-height: 22px; line-height: 1.46667rem; margin-top: 0 }
 .bean-image-and-text.default .field-type-image { float: left; margin-right: 15px }
@@ -158,7 +158,7 @@ div.workbench-info-block { padding: 1em }
 .button[disabled]::before, .button[disabled]:focus::before, .button[disabled]:hover::before, button[disabled]::before, html input[disabled][type="button"]::before, input[disabled][type="reset"]::before, input[disabled][type="submit"]::before, [disabled].slide-show__read-more-link::before, #block-views-slideshow-block .field-name-field-read-more a[disabled]::before, button[disabled]:focus::before, html input[disabled][type="button"]:focus::before, input[disabled][type="reset"]:focus::before, input[disabled][type="submit"]:focus::before, [disabled].slide-show__read-more-link:focus::before, #block-views-slideshow-block .field-name-field-read-more a[disabled]:focus::before, button[disabled]:hover::before, html input[disabled][type="button"]:hover::before, input[disabled][type="reset"]:hover::before, input[disabled][type="submit"]:hover::before, [disabled].slide-show__read-more-link:hover::before, #block-views-slideshow-block .field-name-field-read-more a[disabled]:hover::before { display: none }
 .centered-box { max-width: 400px; text-align: center; margin: 100px auto 0; font-size: 120%; padding: 40px 10px; background: #e2e2e2; color: #4f4f4f }
 .centered-box__image { margin: 0 auto }
-.centered-box__title { margin-top: 1em; font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+.centered-box__title { margin-top: 1em; font-family: $tradegothic; font-weight: bold; }
 .clearfix:before, .layout-front__two-columns-container:before, .front .panel-1col-stacked .panel-col-top:before, .front .panel-1col-stacked .panel-col-bottom:before, .layout-sidebar:before, .layout-asqa_theme-3col:before, .region-footer-bottom .block:before, .header:before, .listing:before, .node-teaser:before, .search-results > li:before, .mission:before, .navigation:before, .region-navigation .block__content > .menu:before, .pager-responsive:before, .slide-show__slides:before, #block-views-slideshow-block .rslides:before, .text-resize:before { content: ''; display: table }
 .clearfix:after, .layout-front__two-columns-container:after, .front .panel-1col-stacked .panel-col-top:after, .front .panel-1col-stacked .panel-col-bottom:after, .layout-sidebar:after, .layout-asqa_theme-3col:after, .region-footer-bottom .block:after, .header:after, .listing:after, .node-teaser:after, .search-results li:after, .mission:after, .navigation:after, .region-navigation .block__content > .menu:after, .pager-responsive:after, .slide-show__slides:after, #block-views-slideshow-block .rslides:after, .text-resize:after { content: ''; display: table; clear: both }
 html.js .collapsible .fieldset-legend { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABJJREFUeJxj+MdQw2DBIMAABgAUsAHD3c3BpwAAAABJRU5ErkJggg=='); background-position: 5px 65%; background-repeat: no-repeat; padding-left: 15px }
@@ -167,7 +167,7 @@ html.js .collapsed .fieldset-legend { background-image: url('data:image/png;base
 #comments { margin-bottom: 20px; border-top: solid 3px #231f20 }
 #comments h2 { margin-top: 0.73333rem }
 #comments #comment-wrapper-header { padding-top: 10px }
-#comments #comment-wrapper-header .add-new-link a { font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+#comments #comment-wrapper-header .add-new-link a { font-family: $tradegothic; font-weight: bold; }
 #comments #comment-wrapper-header h2 { padding-top: 0; border-top: none }
 #comments .comment { background-image: url('../images/comment-icon.png?1415663909'); background-position: 13px 15px; background-repeat: no-repeat; background-color: #f5f5f5; padding: 15px 13px 15px 46px }
 #comments .comment a { text-decoration: none }
@@ -191,7 +191,7 @@ html.js .collapsed .fieldset-legend { background-image: url('data:image/png;base
 .field-name-field-tags .field-item:before { content: ', ' }
 .field-name-field-tags .field-item:first-child:before { content: '' }
 .field-type-file img, .field-type-file a { display: inline-block }
-.field-name-field-subtitle { font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+.field-name-field-subtitle { font-family: $tradegothic; font-weight: bold; }
 .field-name-field-date.field-label-inline .field-label { width: auto }
 .field-label-above { margin-bottom: 0.58667rem }
 #footer-top { background: #f5f5f5; padding: 16px 10px 20px }
@@ -329,7 +329,7 @@ span.field-label { padding: 0 1em 0 0 }
 .main-content .block, .sidebar .block { margin-bottom: 1.46667rem }
 .menu a.active { color: #000 }
 .new, .update { color: #c00; background-color: transparent }
-.unpublished { height: 0; overflow: visible; background-color: transparent; color: #d8d8d8; font-size: 75px; line-height: 1; font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; text-transform: uppercase; text-align: center; word-wrap: break-word }
+.unpublished { height: 0; overflow: visible; background-color: transparent; color: #d8d8d8; font-size: 75px; line-height: 1; font-family: $tradegothic; font-weight: bold; text-transform: uppercase; text-align: center; word-wrap: break-word }
 .comments { margin: 1.46667rem 0 }
 .comment-preview { background-color: #ffffea }
 .comment .permalink { text-transform: uppercase; font-size: 75% }
@@ -352,7 +352,7 @@ tr.drag { background-color: #fffff0 }
 tr.drag-previous { background-color: #ffd }
 .tabledrag-toggle-weight { font-size: 0.9em }
 tr.selected td { background: #ffc }
-.progress { font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+.progress { font-family: $tradegothic; font-weight: bold; }
 .progress .bar { -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background: #ccc; border-color: #666; margin: 0 0.2em }
 .progress .filled { background-color: #0072b9; background-image: url('../images/progress.gif?1415663909') }
 #region-content .content ul li { list-style: disc; margin: 0 0 5px 15px }
@@ -441,7 +441,7 @@ tr.selected td { background: #ffc }
 }
 .quick-links__item { margin: 0 0 6px }
 .quick-links__item:last-child { margin-bottom: 0 }
-.quick-links__link { font-size: 19px; font-size: 1.26667rem; line-height: 20px; line-height: 1.33333rem; position: relative; display: block; height: 60px; padding: 8px 19px 8px 84px; border: 1px solid #e2e2e2; background-color: #f5f5f5; background: linear-gradient(to bottom, #e2e2e2 0%, #f5f5f5 100%); text-transform: uppercase; color: #231f20; font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; text-decoration: none }
+.quick-links__link { font-size: 19px; font-size: 1.26667rem; line-height: 20px; line-height: 1.33333rem; position: relative; display: block; height: 60px; padding: 8px 19px 8px 84px; border: 1px solid #e2e2e2; background-color: #f5f5f5; background: linear-gradient(to bottom, #e2e2e2 0%, #f5f5f5 100%); text-transform: uppercase; color: #231f20; font-family: $tradegothic; font-weight: bold; text-decoration: none }
 .quick-links__link:focus, .quick-links__link:hover { border-color: #231f20; background: #231f20; color: #fff }
 .quick-links__icon { position: absolute; left: 19px; top: 8px; fill: #1675bc }
 .quick-links__icon-is-focus, .quick-links__link:focus .quick-links__icon, .quick-links__link:hover .quick-links__icon { fill: #4dc9e3 }
@@ -491,7 +491,7 @@ tr.selected td { background: #ffc }
 .menu-block-govcms_menu_block-sidebar .menu .menu__link { display: block; padding: 8px 5px 8px 20px; text-decoration: none; color: #444 }
 .menu-block-govcms_menu_block-sidebar .menu .menu__link:hover { text-decoration: underline; color: #3e90cc }
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.visited:hover { color: #875e80 }
-.menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail { font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+.menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail { font-family: $tradegothic; font-weight: bold }
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.active { border-left: 5px solid map_get($colors, 'secondary1'); padding-left: 15px }
 .menu-block-govcms_menu_block-sidebar .menu .menu__item { background-color: #f5f5f5 }
 .menu-block-govcms_menu_block-sidebar .menu .menu__item.is-active-trail { background-color: #fff }
@@ -519,14 +519,14 @@ tr.selected td { background: #ffc }
 .slide-show__slide-title-link:focus, .slide-show__slide-title-link:hover, #block-views-slideshow-block .slide__title a:focus, #block-views-slideshow-block .slide__title a:hover { color: #231f20; text-decoration: underline }
 .slide-show__read-more-link, #block-views-slideshow-block .field-name-field-read-more a { border-color: #fff }
 .slide-show__navigation, #block-views-slideshow-block .rslides_tabs { position: absolute; left: 15px; top: 15px }
-.slide-show__navigation-item, #block-views-slideshow-block .rslides_tabs li { -moz-box-shadow: 0 0 3px; -webkit-box-shadow: 0 0 3px; box-shadow: 0 0 3px; float: left; margin-right: 3px; background-color: #fff; background-color: rgba(255, 255, 255, 0.5); font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+.slide-show__navigation-item, #block-views-slideshow-block .rslides_tabs li { -moz-box-shadow: 0 0 3px; -webkit-box-shadow: 0 0 3px; box-shadow: 0 0 3px; float: left; margin-right: 3px; background-color: #fff; background-color: rgba(255, 255, 255, 0.5); font-family: $tradegothic; font-weight: bold; }
 .slide-show__navigation-link, .slide-show__navigation-link:focus, .slide-show__navigation-link:hover, #block-views-slideshow-block .rslides_tabs li a, #block-views-slideshow-block .rslides_tabs li a:focus, #block-views-slideshow-block .rslides_tabs li a:hover { display: block; padding: 3px 10px; color: #231f20; text-decoration: none }
 .slide-show__navigation-link-is-active, .slide-show__navigation-link-is-active:focus, .slide-show__navigation-link-is-active:hover, #block-views-slideshow-block .rslides_tabs li.rslides_here a, #block-views-slideshow-block .rslides_tabs li.rslides_here a:focus, #block-views-slideshow-block .rslides_tabs li.rslides_here a:hover { color: #fff; background-color: #231f20 }
 .social-link img { width: 16px; height: 16px }
 .social-links-img-link { vertical-align: middle }
 .tabs-primary { white-space: normal !important; background: #f5f5f5; border: solid 1px #dcdcdc; -moz-box-shadow: 0, 5px -10px 10px -15px grey inset, 0, 0; -webkit-box-shadow: 0, 5px -10px 10px -15px grey inset, 0, 0; box-shadow: 0, 5px -10px 10px -15px grey inset, 0, 0 }
 .tabs-primary__tab { display: inline-block }
-.tabs-primary__tab-link { display: block; padding: 0.73333rem 1.46667rem; text-align: center; text-decoration: none; font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif }
+.tabs-primary__tab-link { display: block; padding: 0.73333rem 1.46667rem; text-align: center; text-decoration: none; font-family: $tradegothic; font-weight: bold; }
 .tabs-primary__tab-link.is-active { margin-top: -1px; background: white; border: solid 1px #dcdcdc; border-top: solid 2px #231f20; border-bottom: none; position: relative; color: black }
 .tabs-primary__tab-link.is-active:after { width: 100%; content: ''; display: block; border-bottom: solid 1px white; position: absolute; bottom: -1px; left: 0 }
 .tabs-primary__tab:first-child .tabs-primary__tab-link.is-active { border-left: none }

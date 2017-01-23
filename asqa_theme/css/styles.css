@@ -217,14 +217,16 @@ fieldset {
 
 label {
   display: block;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend {
   border: none;
   margin-left: -5px;
   padding: 0 5px;
   color: #4b4b4b;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend a:link, legend a:visited, legend a:active, legend a:hover, legend a:focus {
   color: #4b4b4b; }
@@ -250,7 +252,8 @@ textarea:focus {
   outline: 0; }
 
 optgroup {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 optgroup option {
   font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
@@ -274,8 +277,7 @@ th {
   border: 1px solid #e2e2e2;
   padding: 10px 15px;
   background-color: #f5f5f5;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: normal;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-align: left; }
 
 th a, th img {
@@ -420,7 +422,8 @@ div.workbench-info-block {
   font-size: 0.93333rem;
   line-height: 22px;
   line-height: 1.46667rem;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .bean-image-and-text.default {
   border-top: solid 1px #f5f5f5;
@@ -521,7 +524,8 @@ div.workbench-info-block {
 
 .centered-box__title {
   margin-top: 1em;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .clearfix:before, .layout-front__two-columns-container:before, .front .panel-1col-stacked .panel-col-top:before, .front .panel-1col-stacked .panel-col-bottom:before, .layout-sidebar:before, .layout-asqa_theme-3col:before, .region-footer-bottom .block:before, .header:before, .listing:before, .node-teaser:before, .search-results > li:before, .mission:before, .navigation:before, .region-navigation .block__content > .menu:before, .pager-responsive:before, .slide-show__slides:before, #block-views-slideshow-block .rslides:before, .text-resize:before {
   content: '';
@@ -558,7 +562,8 @@ html.js .collapsed .fieldset-legend {
   padding-top: 10px; }
 
 #comments #comment-wrapper-header .add-new-link a {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 #comments #comment-wrapper-header h2 {
   padding-top: 0;
@@ -641,7 +646,8 @@ html.js .collapsed .fieldset-legend {
   display: inline-block; }
 
 .field-name-field-subtitle {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .field-name-field-date.field-label-inline .field-label {
   width: auto; }
@@ -1137,7 +1143,8 @@ span.field-label {
   color: #d8d8d8;
   font-size: 75px;
   line-height: 1;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   word-wrap: break-word; }
@@ -1215,7 +1222,8 @@ tr.selected td {
   background: #ffc; }
 
 .progress {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .progress .bar {
   -moz-border-radius: 3px;
@@ -1562,7 +1570,8 @@ tr.selected td {
   background: linear-gradient(to bottom, #e2e2e2 0%, #f5f5f5 100%);
   text-transform: uppercase;
   color: #231f20;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-decoration: none; }
 
 .quick-links__link:focus, .quick-links__link:hover {
@@ -1749,7 +1758,8 @@ tr.selected td {
   color: #875e80; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.active {
   border-left: 5px solid #7faae2;
@@ -1845,7 +1855,8 @@ tr.selected td {
   margin-right: 3px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.5);
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .slide-show__navigation-link, .slide-show__navigation-link:focus, .slide-show__navigation-link:hover, #block-views-slideshow-block .rslides_tabs li a, #block-views-slideshow-block .rslides_tabs li a:focus, #block-views-slideshow-block .rslides_tabs li a:hover {
   display: block;
@@ -1880,7 +1891,8 @@ tr.selected td {
   padding: 0.73333rem 1.46667rem;
   text-align: center;
   text-decoration: none;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .tabs-primary__tab-link.is-active {
   margin-top: -1px;
@@ -2187,14 +2199,16 @@ fieldset {
 
 label {
   display: block;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend {
   border: none;
   margin-left: -5px;
   padding: 0 5px;
   color: #4b4b4b;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend a:link, legend a:visited, legend a:active, legend a:hover, legend a:focus {
   color: #4b4b4b; }
@@ -2220,7 +2234,8 @@ textarea:focus {
   outline: 0; }
 
 optgroup {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 optgroup option {
   font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
@@ -2244,8 +2259,7 @@ th {
   border: 1px solid #e2e2e2;
   padding: 10px 15px;
   background-color: #f5f5f5;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: normal;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-align: left; }
 
 th a, th img {
@@ -2390,7 +2404,8 @@ div.workbench-info-block {
   font-size: 0.93333rem;
   line-height: 22px;
   line-height: 1.46667rem;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .bean-image-and-text.default {
   border-top: solid 1px #f5f5f5;
@@ -2491,7 +2506,8 @@ div.workbench-info-block {
 
 .centered-box__title {
   margin-top: 1em;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .clearfix:before, .layout-front__two-columns-container:before, .front .panel-1col-stacked .panel-col-top:before, .front .panel-1col-stacked .panel-col-bottom:before, .layout-sidebar:before, .layout-asqa_theme-3col:before, .region-footer-bottom .block:before, .header:before, .listing:before, .node-teaser:before, .search-results > li:before, .mission:before, .navigation:before, .region-navigation .block__content > .menu:before, .pager-responsive:before, .slide-show__slides:before, #block-views-slideshow-block .rslides:before, .text-resize:before {
   content: '';
@@ -2528,7 +2544,8 @@ html.js .collapsed .fieldset-legend {
   padding-top: 10px; }
 
 #comments #comment-wrapper-header .add-new-link a {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 #comments #comment-wrapper-header h2 {
   padding-top: 0;
@@ -2611,7 +2628,8 @@ html.js .collapsed .fieldset-legend {
   display: inline-block; }
 
 .field-name-field-subtitle {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .field-name-field-date.field-label-inline .field-label {
   width: auto; }
@@ -3107,7 +3125,8 @@ span.field-label {
   color: #d8d8d8;
   font-size: 75px;
   line-height: 1;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   word-wrap: break-word; }
@@ -3185,7 +3204,8 @@ tr.selected td {
   background: #ffc; }
 
 .progress {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .progress .bar {
   -moz-border-radius: 3px;
@@ -3532,7 +3552,8 @@ tr.selected td {
   background: linear-gradient(to bottom, #e2e2e2 0%, #f5f5f5 100%);
   text-transform: uppercase;
   color: #231f20;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-decoration: none; }
 
 .quick-links__link:focus, .quick-links__link:hover {
@@ -3719,7 +3740,8 @@ tr.selected td {
   color: #875e80; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.active {
   border-left: 5px solid #7faae2;
@@ -3815,7 +3837,8 @@ tr.selected td {
   margin-right: 3px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.5);
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .slide-show__navigation-link, .slide-show__navigation-link:focus, .slide-show__navigation-link:hover, #block-views-slideshow-block .rslides_tabs li a, #block-views-slideshow-block .rslides_tabs li a:focus, #block-views-slideshow-block .rslides_tabs li a:hover {
   display: block;
@@ -3850,7 +3873,8 @@ tr.selected td {
   padding: 0.73333rem 1.46667rem;
   text-align: center;
   text-decoration: none;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .tabs-primary__tab-link.is-active {
   margin-top: -1px;
@@ -4034,7 +4058,7 @@ h1.page__title {
 .page-node .node-news-article .date-display-single,
 .page-node .node-publication .date-display-single {
   font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-size: 1.67rem;
+  font-size: 19.05px;
   font-weight: bold;
   line-height: 2.9333rem;
   margin: -4px 0 8px; }
@@ -4637,14 +4661,16 @@ fieldset {
 
 label {
   display: block;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend {
   border: none;
   margin-left: -5px;
   padding: 0 5px;
   color: #4b4b4b;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend a:link, legend a:visited, legend a:active, legend a:hover, legend a:focus {
   color: #4b4b4b; }
@@ -4670,7 +4696,8 @@ textarea:focus {
   outline: 0; }
 
 optgroup {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 optgroup option {
   font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
@@ -4694,8 +4721,7 @@ th {
   border: 1px solid #e2e2e2;
   padding: 10px 15px;
   background-color: #f5f5f5;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: normal;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-align: left; }
 
 th a, th img {
@@ -4840,7 +4866,8 @@ div.workbench-info-block {
   font-size: 0.93333rem;
   line-height: 22px;
   line-height: 1.46667rem;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .bean-image-and-text.default {
   border-top: solid 1px #f5f5f5;
@@ -4941,7 +4968,8 @@ div.workbench-info-block {
 
 .centered-box__title {
   margin-top: 1em;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .clearfix:before, .layout-front__two-columns-container:before, .front .panel-1col-stacked .panel-col-top:before, .front .panel-1col-stacked .panel-col-bottom:before, .layout-sidebar:before, .layout-asqa_theme-3col:before, .region-footer-bottom .block:before, .header:before, .listing:before, .node-teaser:before, .search-results > li:before, .mission:before, .navigation:before, .region-navigation .block__content > .menu:before, .pager-responsive:before, .slide-show__slides:before, #block-views-slideshow-block .rslides:before, .text-resize:before {
   content: '';
@@ -4978,7 +5006,8 @@ html.js .collapsed .fieldset-legend {
   padding-top: 10px; }
 
 #comments #comment-wrapper-header .add-new-link a {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 #comments #comment-wrapper-header h2 {
   padding-top: 0;
@@ -5061,7 +5090,8 @@ html.js .collapsed .fieldset-legend {
   display: inline-block; }
 
 .field-name-field-subtitle {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .field-name-field-date.field-label-inline .field-label {
   width: auto; }
@@ -5557,7 +5587,8 @@ span.field-label {
   color: #d8d8d8;
   font-size: 75px;
   line-height: 1;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   word-wrap: break-word; }
@@ -5635,7 +5666,8 @@ tr.selected td {
   background: #ffc; }
 
 .progress {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .progress .bar {
   -moz-border-radius: 3px;
@@ -5982,7 +6014,8 @@ tr.selected td {
   background: linear-gradient(to bottom, #e2e2e2 0%, #f5f5f5 100%);
   text-transform: uppercase;
   color: #231f20;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-decoration: none; }
 
 .quick-links__link:focus, .quick-links__link:hover {
@@ -6169,7 +6202,8 @@ tr.selected td {
   color: #875e80; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.active {
   border-left: 5px solid #7faae2;
@@ -6265,7 +6299,8 @@ tr.selected td {
   margin-right: 3px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.5);
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .slide-show__navigation-link, .slide-show__navigation-link:focus, .slide-show__navigation-link:hover, #block-views-slideshow-block .rslides_tabs li a, #block-views-slideshow-block .rslides_tabs li a:focus, #block-views-slideshow-block .rslides_tabs li a:hover {
   display: block;
@@ -6300,7 +6335,8 @@ tr.selected td {
   padding: 0.73333rem 1.46667rem;
   text-align: center;
   text-decoration: none;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .tabs-primary__tab-link.is-active {
   margin-top: -1px;
@@ -6683,14 +6719,16 @@ fieldset {
 
 label {
   display: block;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend {
   border: none;
   margin-left: -5px;
   padding: 0 5px;
   color: #4b4b4b;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend a:link, legend a:visited, legend a:active, legend a:hover, legend a:focus {
   color: #4b4b4b; }
@@ -6716,7 +6754,8 @@ textarea:focus {
   outline: 0; }
 
 optgroup {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 optgroup option {
   font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
@@ -6740,8 +6779,7 @@ th {
   border: 1px solid #e2e2e2;
   padding: 10px 15px;
   background-color: #f5f5f5;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: normal;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-align: left; }
 
 th a, th img {
@@ -6886,7 +6924,8 @@ div.workbench-info-block {
   font-size: 0.93333rem;
   line-height: 22px;
   line-height: 1.46667rem;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .bean-image-and-text.default {
   border-top: solid 1px #f5f5f5;
@@ -6987,7 +7026,8 @@ div.workbench-info-block {
 
 .centered-box__title {
   margin-top: 1em;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .clearfix:before, .layout-front__two-columns-container:before, .front .panel-1col-stacked .panel-col-top:before, .front .panel-1col-stacked .panel-col-bottom:before, .layout-sidebar:before, .layout-asqa_theme-3col:before, .region-footer-bottom .block:before, .header:before, .listing:before, .node-teaser:before, .search-results > li:before, .mission:before, .navigation:before, .region-navigation .block__content > .menu:before, .pager-responsive:before, .slide-show__slides:before, #block-views-slideshow-block .rslides:before, .text-resize:before {
   content: '';
@@ -7024,7 +7064,8 @@ html.js .collapsed .fieldset-legend {
   padding-top: 10px; }
 
 #comments #comment-wrapper-header .add-new-link a {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 #comments #comment-wrapper-header h2 {
   padding-top: 0;
@@ -7107,7 +7148,8 @@ html.js .collapsed .fieldset-legend {
   display: inline-block; }
 
 .field-name-field-subtitle {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .field-name-field-date.field-label-inline .field-label {
   width: auto; }
@@ -7603,7 +7645,8 @@ span.field-label {
   color: #d8d8d8;
   font-size: 75px;
   line-height: 1;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   word-wrap: break-word; }
@@ -7681,7 +7724,8 @@ tr.selected td {
   background: #ffc; }
 
 .progress {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .progress .bar {
   -moz-border-radius: 3px;
@@ -8028,7 +8072,8 @@ tr.selected td {
   background: linear-gradient(to bottom, #e2e2e2 0%, #f5f5f5 100%);
   text-transform: uppercase;
   color: #231f20;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-decoration: none; }
 
 .quick-links__link:focus, .quick-links__link:hover {
@@ -8215,7 +8260,8 @@ tr.selected td {
   color: #875e80; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.active {
   border-left: 5px solid #7faae2;
@@ -8311,7 +8357,8 @@ tr.selected td {
   margin-right: 3px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.5);
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .slide-show__navigation-link, .slide-show__navigation-link:focus, .slide-show__navigation-link:hover, #block-views-slideshow-block .rslides_tabs li a, #block-views-slideshow-block .rslides_tabs li a:focus, #block-views-slideshow-block .rslides_tabs li a:hover {
   display: block;
@@ -8346,7 +8393,8 @@ tr.selected td {
   padding: 0.73333rem 1.46667rem;
   text-align: center;
   text-decoration: none;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .tabs-primary__tab-link.is-active {
   margin-top: -1px;
@@ -8734,14 +8782,16 @@ fieldset {
 
 label {
   display: block;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend {
   border: none;
   margin-left: -5px;
   padding: 0 5px;
   color: #4b4b4b;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend a:link, legend a:visited, legend a:active, legend a:hover, legend a:focus {
   color: #4b4b4b; }
@@ -8767,7 +8817,8 @@ textarea:focus {
   outline: 0; }
 
 optgroup {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 optgroup option {
   font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
@@ -8791,8 +8842,7 @@ th {
   border: 1px solid #e2e2e2;
   padding: 10px 15px;
   background-color: #f5f5f5;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: normal;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-align: left; }
 
 th a, th img {
@@ -8937,7 +8987,8 @@ div.workbench-info-block {
   font-size: 0.93333rem;
   line-height: 22px;
   line-height: 1.46667rem;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .bean-image-and-text.default {
   border-top: solid 1px #f5f5f5;
@@ -9038,7 +9089,8 @@ div.workbench-info-block {
 
 .centered-box__title {
   margin-top: 1em;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .clearfix:before, .layout-front__two-columns-container:before, .front .panel-1col-stacked .panel-col-top:before, .front .panel-1col-stacked .panel-col-bottom:before, .layout-sidebar:before, .layout-asqa_theme-3col:before, .region-footer-bottom .block:before, .header:before, .listing:before, .node-teaser:before, .search-results > li:before, .mission:before, .navigation:before, .region-navigation .block__content > .menu:before, .pager-responsive:before, .slide-show__slides:before, #block-views-slideshow-block .rslides:before, .text-resize:before {
   content: '';
@@ -9075,7 +9127,8 @@ html.js .collapsed .fieldset-legend {
   padding-top: 10px; }
 
 #comments #comment-wrapper-header .add-new-link a {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 #comments #comment-wrapper-header h2 {
   padding-top: 0;
@@ -9158,7 +9211,8 @@ html.js .collapsed .fieldset-legend {
   display: inline-block; }
 
 .field-name-field-subtitle {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .field-name-field-date.field-label-inline .field-label {
   width: auto; }
@@ -9654,7 +9708,8 @@ span.field-label {
   color: #d8d8d8;
   font-size: 75px;
   line-height: 1;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   word-wrap: break-word; }
@@ -9732,7 +9787,8 @@ tr.selected td {
   background: #ffc; }
 
 .progress {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .progress .bar {
   -moz-border-radius: 3px;
@@ -10079,7 +10135,8 @@ tr.selected td {
   background: linear-gradient(to bottom, #e2e2e2 0%, #f5f5f5 100%);
   text-transform: uppercase;
   color: #231f20;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-decoration: none; }
 
 .quick-links__link:focus, .quick-links__link:hover {
@@ -10266,7 +10323,8 @@ tr.selected td {
   color: #875e80; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.active {
   border-left: 5px solid #7faae2;
@@ -10362,7 +10420,8 @@ tr.selected td {
   margin-right: 3px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.5);
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .slide-show__navigation-link, .slide-show__navigation-link:focus, .slide-show__navigation-link:hover, #block-views-slideshow-block .rslides_tabs li a, #block-views-slideshow-block .rslides_tabs li a:focus, #block-views-slideshow-block .rslides_tabs li a:hover {
   display: block;
@@ -10397,7 +10456,8 @@ tr.selected td {
   padding: 0.73333rem 1.46667rem;
   text-align: center;
   text-decoration: none;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .tabs-primary__tab-link.is-active {
   margin-top: -1px;
@@ -10741,14 +10801,16 @@ fieldset {
 
 label {
   display: block;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend {
   border: none;
   margin-left: -5px;
   padding: 0 5px;
   color: #4b4b4b;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend a:link, legend a:visited, legend a:active, legend a:hover, legend a:focus {
   color: #4b4b4b; }
@@ -10774,7 +10836,8 @@ textarea:focus {
   outline: 0; }
 
 optgroup {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 optgroup option {
   font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
@@ -10798,8 +10861,7 @@ th {
   border: 1px solid #e2e2e2;
   padding: 10px 15px;
   background-color: #f5f5f5;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: normal;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-align: left; }
 
 th a, th img {
@@ -10944,7 +11006,8 @@ div.workbench-info-block {
   font-size: 0.93333rem;
   line-height: 22px;
   line-height: 1.46667rem;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .bean-image-and-text.default {
   border-top: solid 1px #f5f5f5;
@@ -11045,7 +11108,8 @@ div.workbench-info-block {
 
 .centered-box__title {
   margin-top: 1em;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .clearfix:before, .layout-front__two-columns-container:before, .front .panel-1col-stacked .panel-col-top:before, .front .panel-1col-stacked .panel-col-bottom:before, .layout-sidebar:before, .layout-asqa_theme-3col:before, .region-footer-bottom .block:before, .header:before, .listing:before, .node-teaser:before, .search-results > li:before, .mission:before, .navigation:before, .region-navigation .block__content > .menu:before, .pager-responsive:before, .slide-show__slides:before, #block-views-slideshow-block .rslides:before, .text-resize:before {
   content: '';
@@ -11082,7 +11146,8 @@ html.js .collapsed .fieldset-legend {
   padding-top: 10px; }
 
 #comments #comment-wrapper-header .add-new-link a {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 #comments #comment-wrapper-header h2 {
   padding-top: 0;
@@ -11165,7 +11230,8 @@ html.js .collapsed .fieldset-legend {
   display: inline-block; }
 
 .field-name-field-subtitle {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .field-name-field-date.field-label-inline .field-label {
   width: auto; }
@@ -11661,7 +11727,8 @@ span.field-label {
   color: #d8d8d8;
   font-size: 75px;
   line-height: 1;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   word-wrap: break-word; }
@@ -11739,7 +11806,8 @@ tr.selected td {
   background: #ffc; }
 
 .progress {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .progress .bar {
   -moz-border-radius: 3px;
@@ -12086,7 +12154,8 @@ tr.selected td {
   background: linear-gradient(to bottom, #e2e2e2 0%, #f5f5f5 100%);
   text-transform: uppercase;
   color: #231f20;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-decoration: none; }
 
 .quick-links__link:focus, .quick-links__link:hover {
@@ -12273,7 +12342,8 @@ tr.selected td {
   color: #875e80; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.active {
   border-left: 5px solid #7faae2;
@@ -12369,7 +12439,8 @@ tr.selected td {
   margin-right: 3px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.5);
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .slide-show__navigation-link, .slide-show__navigation-link:focus, .slide-show__navigation-link:hover, #block-views-slideshow-block .rslides_tabs li a, #block-views-slideshow-block .rslides_tabs li a:focus, #block-views-slideshow-block .rslides_tabs li a:hover {
   display: block;
@@ -12404,7 +12475,8 @@ tr.selected td {
   padding: 0.73333rem 1.46667rem;
   text-align: center;
   text-decoration: none;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .tabs-primary__tab-link.is-active {
   margin-top: -1px;
@@ -12727,14 +12799,16 @@ fieldset {
 
 label {
   display: block;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend {
   border: none;
   margin-left: -5px;
   padding: 0 5px;
   color: #4b4b4b;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 legend a:link, legend a:visited, legend a:active, legend a:hover, legend a:focus {
   color: #4b4b4b; }
@@ -12760,7 +12834,8 @@ textarea:focus {
   outline: 0; }
 
 optgroup {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 optgroup option {
   font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
@@ -12784,8 +12859,7 @@ th {
   border: 1px solid #e2e2e2;
   padding: 10px 15px;
   background-color: #f5f5f5;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: normal;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-align: left; }
 
 th a, th img {
@@ -12930,7 +13004,8 @@ div.workbench-info-block {
   font-size: 0.93333rem;
   line-height: 22px;
   line-height: 1.46667rem;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .bean-image-and-text.default {
   border-top: solid 1px #f5f5f5;
@@ -13031,7 +13106,8 @@ div.workbench-info-block {
 
 .centered-box__title {
   margin-top: 1em;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .clearfix:before, .layout-front__two-columns-container:before, .front .panel-1col-stacked .panel-col-top:before, .front .panel-1col-stacked .panel-col-bottom:before, .layout-sidebar:before, .layout-asqa_theme-3col:before, .region-footer-bottom .block:before, .header:before, .listing:before, .node-teaser:before, .search-results > li:before, .mission:before, .navigation:before, .region-navigation .block__content > .menu:before, .pager-responsive:before, .slide-show__slides:before, #block-views-slideshow-block .rslides:before, .text-resize:before {
   content: '';
@@ -13068,7 +13144,8 @@ html.js .collapsed .fieldset-legend {
   padding-top: 10px; }
 
 #comments #comment-wrapper-header .add-new-link a {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 #comments #comment-wrapper-header h2 {
   padding-top: 0;
@@ -13151,7 +13228,8 @@ html.js .collapsed .fieldset-legend {
   display: inline-block; }
 
 .field-name-field-subtitle {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .field-name-field-date.field-label-inline .field-label {
   width: auto; }
@@ -13647,7 +13725,8 @@ span.field-label {
   color: #d8d8d8;
   font-size: 75px;
   line-height: 1;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   word-wrap: break-word; }
@@ -13725,7 +13804,8 @@ tr.selected td {
   background: #ffc; }
 
 .progress {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .progress .bar {
   -moz-border-radius: 3px;
@@ -14072,7 +14152,8 @@ tr.selected td {
   background: linear-gradient(to bottom, #e2e2e2 0%, #f5f5f5 100%);
   text-transform: uppercase;
   color: #231f20;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
   text-decoration: none; }
 
 .quick-links__link:focus, .quick-links__link:hover {
@@ -14259,7 +14340,8 @@ tr.selected td {
   color: #875e80; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.is-active-trail {
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .menu-block-govcms_menu_block-sidebar .menu .menu__link.active {
   border-left: 5px solid #7faae2;
@@ -14355,7 +14437,8 @@ tr.selected td {
   margin-right: 3px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.5);
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .slide-show__navigation-link, .slide-show__navigation-link:focus, .slide-show__navigation-link:hover, #block-views-slideshow-block .rslides_tabs li a, #block-views-slideshow-block .rslides_tabs li a:focus, #block-views-slideshow-block .rslides_tabs li a:hover {
   display: block;
@@ -14390,7 +14473,8 @@ tr.selected td {
   padding: 0.73333rem 1.46667rem;
   text-align: center;
   text-decoration: none;
-  font-family: "TradeGothicLT-Bold", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
+  font-family: "TradeGothicLT", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold; }
 
 .tabs-primary__tab-link.is-active {
   margin-top: -1px;
