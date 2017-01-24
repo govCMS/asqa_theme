@@ -4234,6 +4234,15 @@ a:focus, a:active {
   .panel-1col-stacked .panel-col-top .panel-pane {
     min-height: 7.5em; } }
 
+@media (min-width: 480px) and (max-width: 720px) {
+  body.front .panel-3col-33 .panel-panel {
+    width: 100%; }
+    body.front .panel-3col-33 .panel-panel .bean-image-and-text.landing_page {
+      max-width: none; } }
+
+body.front .panel-3col-33 .panel-col .inside {
+  margin-right: 0px; }
+
 #block-menu-menu-help-centre .menu {
   list-style: none;
   padding: 0;

@@ -51,8 +51,8 @@
     <div class="image-title">
       <?php if (!empty($content['field_bean_image'])) : ?>
         <div class="image grayscale grayscale-fade">
-        <?php if (!empty($content['field_link_to'])) : ?>
-          <a href="<?php print render($content['field_link_to'][0]); ?>"><?php print render($content['field_bean_image']); ?></a>
+        <?php if (!empty($field_link_to[0]['display_url'])) : ?>
+          <a href="<?php print check_plain($field_link_to[0]['display_url']); ?>"><?php print render($content['field_bean_image']); ?></a>
         <?php else : ?>
           <?php print render($content['field_bean_image']); ?>
         <?php endif; ?>
