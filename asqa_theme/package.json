@@ -1,7 +1,7 @@
 {
-  "name": "sdo_theme",
+  "name": "asqa_theme",
   "version": "1.0.0",
-  "description": "Theme builders for the SDO theme.",
+  "description": "Theme builders for the ASQA theme.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
