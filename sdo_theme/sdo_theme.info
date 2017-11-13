@@ -12,8 +12,8 @@
 ; page at admin/appearance.
 
 screenshot  = screenshot.png
-name        = ASQA whitesite
-description = Theme for ASQA based upon the Agency Whitesite theme for govCMS
+name        = SDO whitesite
+description = Theme for SDO based upon the Agency Whitesite theme for govCMS
 
 
 ; This theme is compatible with Drupal 7 core. And it is a sub-theme of Zen.

@@ -17,12 +17,12 @@
  *   The name of the template being rendered ("maintenance_page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function asqa_theme_preprocess_maintenance_page(&$variables, $hook) {
+function sdo_theme_preprocess_maintenance_page(&$variables, $hook) {
   // When a variable is manipulated or added in preprocess_html or
   // preprocess_page, that same work is probably needed for the maintenance page
   // as well, so we can just re-use those functions to do that work here.
-  asqa_theme_preprocess_html($variables, $hook);
-  asqa_theme_preprocess_page($variables, $hook);
+  sdo_theme_preprocess_html($variables, $hook);
+  sdo_theme_preprocess_page($variables, $hook);
 }
 // */
 
@@ -34,7 +34,7 @@ function asqa_theme_preprocess_maintenance_page(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("html" in this case.)
  */
-function asqa_theme_preprocess_html(&$variables, $hook) {
+function sdo_theme_preprocess_html(&$variables, $hook) {
   drupal_add_library('system', 'ui.accordion');
   drupal_add_library('system', 'ui.dialog');
 }
@@ -47,7 +47,7 @@ function asqa_theme_preprocess_html(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-function asqa_theme_preprocess_page(&$variables, $hook) {
+function sdo_theme_preprocess_page(&$variables, $hook) {
   global $base_url;
 
   $variables['logo'] = image_style_url('image_and_text_bean_large', str_replace($base_url . '/' . variable_get('file_public_path', conf_path() . '/files') , 'public://', $variables['logo']));
@@ -63,12 +63,12 @@ function asqa_theme_preprocess_page(&$variables, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function asqa_theme_preprocess_node(&$variables, $hook) {
+function sdo_theme_preprocess_node(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like
-  // asqa_theme_preprocess_node_page() or
-  // asqa_theme_preprocess_node_story().
+  // sdo_theme_preprocess_node_page() or
+  // sdo_theme_preprocess_node_story().
   $function = __FUNCTION__ . '_' . $variables['node']->type;
   if (function_exists($function)) {
     $function($variables, $hook);
@@ -85,7 +85,7 @@ function asqa_theme_preprocess_node(&$variables, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function asqa_theme_preprocess_comment(&$variables, $hook) {
+function sdo_theme_preprocess_comment(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -99,7 +99,7 @@ function asqa_theme_preprocess_comment(&$variables, $hook) {
  *   The name of the template being rendered ("region" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function asqa_theme_preprocess_region(&$variables, $hook) {
+function sdo_theme_preprocess_region(&$variables, $hook) {
   // Don't use Zen's region--sidebar.tpl.php template for sidebars.
   //if (strpos($variables['region'], 'sidebar_') === 0) {
   //  $variables['theme_hook_suggestions'] =
@@ -117,7 +117,7 @@ function asqa_theme_preprocess_region(&$variables, $hook) {
  *   The name of the template being rendered ("block" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function asqa_theme_preprocess_block(&$variables, $hook) {
+function sdo_theme_preprocess_block(&$variables, $hook) {
   // Add a count to all the blocks in the region.
   // $variables['classes_array'][] = 'count-' . $variables['block_id'];
 }
@@ -126,12 +126,12 @@ function asqa_theme_preprocess_block(&$variables, $hook) {
 /**
  * Implementation for govcms_social_link.
  */
-function asqa_theme_govcms_social_link($variables) {
+function sdo_theme_govcms_social_link($variables) {
   $title = $variables['title'];
   $output = '';
 
   if ($title == 'Youtube') {
-    $variables['icon'] = base_path() . drupal_get_path('theme', 'asqa_theme') . '/images/youtube.png';
+    $variables['icon'] = base_path() . drupal_get_path('theme', 'sdo_theme') . '/images/youtube.png';
   }
 
   $service_image = theme('image', array(
@@ -165,7 +165,7 @@ function asqa_theme_govcms_social_link($variables) {
 /**
  * Returns HTML for a button form element.
  */
-function asqa_theme_button($variables) {
+function sdo_theme_button($variables) {
   $element = $variables['element'];
   $element['#attributes']['type'] = 'submit';
   element_set_attributes($element, array('id', 'name', 'value'));
@@ -181,7 +181,7 @@ function asqa_theme_button($variables) {
 /**
  * Implements hook_form_alter().
  */
-function asqa_theme_form_search_api_page_search_form_default_search_alter(&$form, &$form_state, $form_id) {
+function sdo_theme_form_search_api_page_search_form_default_search_alter(&$form, &$form_state, $form_id) {
   if (isset($form['id']['#value']) && isset($form['keys_' . $form['id']['#value']])) {
     $form['keys_' . $form['id']['#value']]['#attributes']['placeholder'] = t('Search website…');
   }
@@ -190,7 +190,7 @@ function asqa_theme_form_search_api_page_search_form_default_search_alter(&$form
 /**
  * Implements hook_preprocess_panels_pane().
  */
-function asqa_theme_preprocess_panels_pane(&$variables) {
+function sdo_theme_preprocess_panels_pane(&$variables) {
   if ($variables['pane']->type == 'bean_panels' && isset($variables['pane']->configuration['bean_delta'])) {
     $delta = $variables['pane']->configuration['bean_delta'];
     $variables['theme_hook_suggestions'][] = 'panels_pane__' . str_replace('-', '_', $delta);
@@ -200,7 +200,7 @@ function asqa_theme_preprocess_panels_pane(&$variables) {
 /**
  * Returns HTML for a query pager.
  */
-function asqa_theme_pager($variables) {
+function sdo_theme_pager($variables) {
   $tags = $variables['tags'];
   $element = $variables['element'];
   $parameters = $variables['parameters'];
@@ -352,7 +352,7 @@ function asqa_theme_pager($variables) {
 /**
  * Returns HTML for a link to a specific query result page.
  */
-function asqa_theme_pager_link__responsive($variables) {
+function sdo_theme_pager_link__responsive($variables) {
   $variables['attributes']['class'][] = 'pager-responsive__link';
   return theme_pager_link($variables);
 }
@@ -360,7 +360,7 @@ function asqa_theme_pager_link__responsive($variables) {
 /**
  * Returns HTML for the "first page" link in a query pager.
  */
-function asqa_theme_pager_first__responsive($variables) {
+function sdo_theme_pager_first__responsive($variables) {
   $text = $variables['text'];
   $element = $variables['element'];
   $parameters = $variables['parameters'];
@@ -380,7 +380,7 @@ function asqa_theme_pager_first__responsive($variables) {
 /**
  * Returns HTML for the "previous page" link in a query pager.
  */
-function asqa_theme_pager_previous__responsive($variables) {
+function sdo_theme_pager_previous__responsive($variables) {
   $text = $variables['text'];
   $element = $variables['element'];
   $interval = $variables['interval'];
@@ -414,7 +414,7 @@ function asqa_theme_pager_previous__responsive($variables) {
 /**
  * Returns HTML for the "next page" link in a query pager.
  */
-function asqa_theme_pager_next__responsive($variables) {
+function sdo_theme_pager_next__responsive($variables) {
   $text = $variables['text'];
   $element = $variables['element'];
   $interval = $variables['interval'];
@@ -447,7 +447,7 @@ function asqa_theme_pager_next__responsive($variables) {
 /**
  * Returns HTML for the "last page" link in query pager.
  */
-function asqa_theme_pager_last__responsive($variables) {
+function sdo_theme_pager_last__responsive($variables) {
   $text = $variables['text'];
   $element = $variables['element'];
   $parameters = $variables['parameters'];
@@ -467,7 +467,7 @@ function asqa_theme_pager_last__responsive($variables) {
 /**
  * Returns HTML for a list or nested list of items.
  */
-function asqa_theme_item_list__pager($variables) {
+function sdo_theme_item_list__pager($variables) {
   $items = $variables['items'];
   $attributes = $variables['attributes'];
   $output = '';
@@ -500,7 +500,7 @@ function asqa_theme_item_list__pager($variables) {
       }
       if (count($children) > 0) {
         // Render nested list.
-        $data .= asqa_theme_item_list__pager(array(
+        $data .= sdo_theme_item_list__pager(array(
           'items' => $children,
           'attributes' => array(),
         ));
@@ -515,7 +515,7 @@ function asqa_theme_item_list__pager($variables) {
 /**
  * Implements hook_preprocess_menu_link().
  */
-function asqa_theme_preprocess_menu_link(&$variables, $hook) {
+function sdo_theme_preprocess_menu_link(&$variables, $hook) {
   // For quick links, load the svg icons.
   if (isset($variables['element']['#bid']['delta']) && $variables['element']['#bid']['delta'] == 'ctools-menu-frontpage-quicklinks-1') {
     $svg = '';
@@ -541,7 +541,7 @@ function asqa_theme_preprocess_menu_link(&$variables, $hook) {
         break;
     }
     if ($svg) {
-      $svg = file_get_contents(DRUPAL_ROOT . '/' . drupal_get_path('theme', 'asqa_theme') . '/images/icons/quick-links--' . $svg . '.svg');
+      $svg = file_get_contents(DRUPAL_ROOT . '/' . drupal_get_path('theme', 'sdo_theme') . '/images/icons/quick-links--' . $svg . '.svg');
     }
     $variables['element']['#localized_options']['attributes']['class'] = array('quick-links__link');
     $variables['element']['#attributes']['class'] = array('quick-links__item');
@@ -552,21 +552,21 @@ function asqa_theme_preprocess_menu_link(&$variables, $hook) {
 
 
 /// make the timestamp pretty
-function asqa_theme_preprocess_node(&$vars, $hook) {
+function sdo_theme_preprocess_node(&$vars, $hook) {
   $vars['submitted'] = "<span class='postedStart'>Posted </span>".
                        "<span class='postedTime'>at " . date("g:ia", $vars['created']) . " </span>".
                        "<span class='postedDate'>on " . date("l, M jS, Y", $vars['created']) . " </span>".
                        "<span class='postedBy'>by " . $vars['name'] ."</span>";
 }
 
-function asqa_theme_preprocess_field(&$variables) {
+function sdo_theme_preprocess_field(&$variables) {
   $hook = __FUNCTION__ . "_{$variables['element']['#field_name']}";
   if (function_exists($hook)) {
     $hook($variables);
   }
 }
 
-function asqa_theme_preprocess_field_field_decision_legal_name(&$variables) {
+function sdo_theme_preprocess_field_field_decision_legal_name(&$variables) {
   $element = $variables['element'];
   $node = $element['#object'];
   $name = $variables['items'][0]['#markup'];
@@ -584,14 +584,14 @@ function asqa_theme_preprocess_field_field_decision_legal_name(&$variables) {
 /**
  * Implements hook_preprocess_menu_block_wrapper().
  */
-function asqa_theme_preprocess_menu_block_wrapper(&$variables) {
+function sdo_theme_preprocess_menu_block_wrapper(&$variables) {
   $variables['classes_array'][] = 'menu-block-govcms_menu_block-sidebar';
 }
 
 /**
  * Implements hook_preprocess_block().
  */
-function asqa_theme_preprocess_block(&$variables) {
+function sdo_theme_preprocess_block(&$variables) {
   $elements = &$variables['elements'];
   if ($elements['#block']->region == 'sidebar' && $elements['#block']->module == 'menu') {
     // Add container classes to menu blocks rendered via the block system.
@@ -609,7 +609,7 @@ function asqa_theme_preprocess_block(&$variables) {
 /**
  * Implements hook_preprocess_views_view_table().
  */
-function asqa_theme_preprocess_views_view_table(&$variables) {
+function sdo_theme_preprocess_views_view_table(&$variables) {
   $path = path_to_theme();
   $persistent_headers = ['nid'];
   $idx = -1;
