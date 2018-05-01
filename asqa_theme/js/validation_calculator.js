@@ -1,7 +1,7 @@
 (function($, Drupal, window, document, undefined) {
   Drupal.behaviors.validationCalculator = {
     attach: function(context, settings) {
-      console.log('Calculator Here');
+
       // This is our calculator
       var calcForm = '<div class="validation-sample-size-calculator"> \
         <form name="sample-size-calculator"> \
