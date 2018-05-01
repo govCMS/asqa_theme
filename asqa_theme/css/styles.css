@@ -1989,6 +1989,57 @@ tr.selected td {
   margin: 22px 0;
   margin: 1.46667rem 0; }
 
+/* Calculator */
+.validation-sample-size-calculator {
+  border: 1px solid #e2e2e2;
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  border-radius: 3px; }
+  .validation-sample-size-calculator .form-item {
+    margin: 5px 0; }
+    .validation-sample-size-calculator .form-item:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .validation-sample-size-calculator .form-item:last-child {
+    margin-bottom: 0px; }
+  .validation-sample-size-calculator .form-item label {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle; }
+  .validation-sample-size-calculator .form-item input {
+    display: inline;
+    vertical-align: top;
+    width: 100%;
+    border-radius: 3px; }
+  .validation-sample-size-calculator .form-item input[type="number"] {
+    direction: rtl;
+    padding-left: 0;
+    text-align: right;
+    float: right;
+    width: 70px; }
+  .validation-sample-size-calculator .output {
+    border-top: 1px solid #00517d;
+    padding: 20px 10px;
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: right; }
+  .validation-sample-size-calculator .output .sample-title {
+    font-size: 110%;
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: bold; }
+  .validation-sample-size-calculator .output .sample-output {
+    display: block;
+    text-align: left; }
+  .validation-sample-size-calculator .output #sample {
+    font-size: 250%;
+    text-align: right;
+    float: right; }
+
 .list-unstyled {
   margin: 0;
   padding: 0;
@@ -3970,6 +4021,57 @@ tr.selected td {
 .video, .video-filter {
   margin: 22px 0;
   margin: 1.46667rem 0; }
+
+/* Calculator */
+.validation-sample-size-calculator {
+  border: 1px solid #e2e2e2;
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  border-radius: 3px; }
+  .validation-sample-size-calculator .form-item {
+    margin: 5px 0; }
+    .validation-sample-size-calculator .form-item:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .validation-sample-size-calculator .form-item:last-child {
+    margin-bottom: 0px; }
+  .validation-sample-size-calculator .form-item label {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle; }
+  .validation-sample-size-calculator .form-item input {
+    display: inline;
+    vertical-align: top;
+    width: 100%;
+    border-radius: 3px; }
+  .validation-sample-size-calculator .form-item input[type="number"] {
+    direction: rtl;
+    padding-left: 0;
+    text-align: right;
+    float: right;
+    width: 70px; }
+  .validation-sample-size-calculator .output {
+    border-top: 1px solid #00517d;
+    padding: 20px 10px;
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: right; }
+  .validation-sample-size-calculator .output .sample-title {
+    font-size: 110%;
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: bold; }
+  .validation-sample-size-calculator .output .sample-output {
+    display: block;
+    text-align: left; }
+  .validation-sample-size-calculator .output #sample {
+    font-size: 250%;
+    text-align: right;
+    float: right; }
 
 .view-content.ui-accordion .ui-accordion-header h3:focus, .view-content.ui-accordion .ui-accordion-header h3:active {
   background: black;
@@ -6442,6 +6544,57 @@ tr.selected td {
   margin: 22px 0;
   margin: 1.46667rem 0; }
 
+/* Calculator */
+.validation-sample-size-calculator {
+  border: 1px solid #e2e2e2;
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  border-radius: 3px; }
+  .validation-sample-size-calculator .form-item {
+    margin: 5px 0; }
+    .validation-sample-size-calculator .form-item:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .validation-sample-size-calculator .form-item:last-child {
+    margin-bottom: 0px; }
+  .validation-sample-size-calculator .form-item label {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle; }
+  .validation-sample-size-calculator .form-item input {
+    display: inline;
+    vertical-align: top;
+    width: 100%;
+    border-radius: 3px; }
+  .validation-sample-size-calculator .form-item input[type="number"] {
+    direction: rtl;
+    padding-left: 0;
+    text-align: right;
+    float: right;
+    width: 70px; }
+  .validation-sample-size-calculator .output {
+    border-top: 1px solid #00517d;
+    padding: 20px 10px;
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: right; }
+  .validation-sample-size-calculator .output .sample-title {
+    font-size: 110%;
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: bold; }
+  .validation-sample-size-calculator .output .sample-output {
+    display: block;
+    text-align: left; }
+  .validation-sample-size-calculator .output #sample {
+    font-size: 250%;
+    text-align: right;
+    float: right; }
+
 .view-content.ui-accordion .ui-accordion-header h3:focus, .view-content.ui-accordion .ui-accordion-header h3:active {
   background: black;
   outline: medium solid #4dc9e3 !important; }
@@ -8499,6 +8652,57 @@ tr.selected td {
 .video, .video-filter {
   margin: 22px 0;
   margin: 1.46667rem 0; }
+
+/* Calculator */
+.validation-sample-size-calculator {
+  border: 1px solid #e2e2e2;
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  border-radius: 3px; }
+  .validation-sample-size-calculator .form-item {
+    margin: 5px 0; }
+    .validation-sample-size-calculator .form-item:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .validation-sample-size-calculator .form-item:last-child {
+    margin-bottom: 0px; }
+  .validation-sample-size-calculator .form-item label {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle; }
+  .validation-sample-size-calculator .form-item input {
+    display: inline;
+    vertical-align: top;
+    width: 100%;
+    border-radius: 3px; }
+  .validation-sample-size-calculator .form-item input[type="number"] {
+    direction: rtl;
+    padding-left: 0;
+    text-align: right;
+    float: right;
+    width: 70px; }
+  .validation-sample-size-calculator .output {
+    border-top: 1px solid #00517d;
+    padding: 20px 10px;
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: right; }
+  .validation-sample-size-calculator .output .sample-title {
+    font-size: 110%;
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: bold; }
+  .validation-sample-size-calculator .output .sample-output {
+    display: block;
+    text-align: left; }
+  .validation-sample-size-calculator .output #sample {
+    font-size: 250%;
+    text-align: right;
+    float: right; }
 
 .view-content.ui-accordion .ui-accordion-header h3:focus, .view-content.ui-accordion .ui-accordion-header h3:active {
   background: black;
@@ -10563,6 +10767,57 @@ tr.selected td {
   margin: 22px 0;
   margin: 1.46667rem 0; }
 
+/* Calculator */
+.validation-sample-size-calculator {
+  border: 1px solid #e2e2e2;
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  border-radius: 3px; }
+  .validation-sample-size-calculator .form-item {
+    margin: 5px 0; }
+    .validation-sample-size-calculator .form-item:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .validation-sample-size-calculator .form-item:last-child {
+    margin-bottom: 0px; }
+  .validation-sample-size-calculator .form-item label {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle; }
+  .validation-sample-size-calculator .form-item input {
+    display: inline;
+    vertical-align: top;
+    width: 100%;
+    border-radius: 3px; }
+  .validation-sample-size-calculator .form-item input[type="number"] {
+    direction: rtl;
+    padding-left: 0;
+    text-align: right;
+    float: right;
+    width: 70px; }
+  .validation-sample-size-calculator .output {
+    border-top: 1px solid #00517d;
+    padding: 20px 10px;
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: right; }
+  .validation-sample-size-calculator .output .sample-title {
+    font-size: 110%;
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: bold; }
+  .validation-sample-size-calculator .output .sample-output {
+    display: block;
+    text-align: left; }
+  .validation-sample-size-calculator .output #sample {
+    font-size: 250%;
+    text-align: right;
+    float: right; }
+
 .view-content.ui-accordion .ui-accordion-header h3:focus, .view-content.ui-accordion .ui-accordion-header h3:active {
   background: black;
   outline: medium solid #4dc9e3 !important; }
@@ -12582,6 +12837,57 @@ tr.selected td {
   margin: 22px 0;
   margin: 1.46667rem 0; }
 
+/* Calculator */
+.validation-sample-size-calculator {
+  border: 1px solid #e2e2e2;
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  border-radius: 3px; }
+  .validation-sample-size-calculator .form-item {
+    margin: 5px 0; }
+    .validation-sample-size-calculator .form-item:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .validation-sample-size-calculator .form-item:last-child {
+    margin-bottom: 0px; }
+  .validation-sample-size-calculator .form-item label {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle; }
+  .validation-sample-size-calculator .form-item input {
+    display: inline;
+    vertical-align: top;
+    width: 100%;
+    border-radius: 3px; }
+  .validation-sample-size-calculator .form-item input[type="number"] {
+    direction: rtl;
+    padding-left: 0;
+    text-align: right;
+    float: right;
+    width: 70px; }
+  .validation-sample-size-calculator .output {
+    border-top: 1px solid #00517d;
+    padding: 20px 10px;
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: right; }
+  .validation-sample-size-calculator .output .sample-title {
+    font-size: 110%;
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: bold; }
+  .validation-sample-size-calculator .output .sample-output {
+    display: block;
+    text-align: left; }
+  .validation-sample-size-calculator .output #sample {
+    font-size: 250%;
+    text-align: right;
+    float: right; }
+
 .view-content.ui-accordion .ui-accordion-header h3:focus, .view-content.ui-accordion .ui-accordion-header h3:active {
   background: black;
   outline: medium solid #4dc9e3 !important; }
@@ -14579,6 +14885,57 @@ tr.selected td {
 .video, .video-filter {
   margin: 22px 0;
   margin: 1.46667rem 0; }
+
+/* Calculator */
+.validation-sample-size-calculator {
+  border: 1px solid #e2e2e2;
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  border-radius: 3px; }
+  .validation-sample-size-calculator .form-item {
+    margin: 5px 0; }
+    .validation-sample-size-calculator .form-item:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .validation-sample-size-calculator .form-item:last-child {
+    margin-bottom: 0px; }
+  .validation-sample-size-calculator .form-item label {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle; }
+  .validation-sample-size-calculator .form-item input {
+    display: inline;
+    vertical-align: top;
+    width: 100%;
+    border-radius: 3px; }
+  .validation-sample-size-calculator .form-item input[type="number"] {
+    direction: rtl;
+    padding-left: 0;
+    text-align: right;
+    float: right;
+    width: 70px; }
+  .validation-sample-size-calculator .output {
+    border-top: 1px solid #00517d;
+    padding: 20px 10px;
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: right; }
+  .validation-sample-size-calculator .output .sample-title {
+    font-size: 110%;
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: bold; }
+  .validation-sample-size-calculator .output .sample-output {
+    display: block;
+    text-align: left; }
+  .validation-sample-size-calculator .output #sample {
+    font-size: 250%;
+    text-align: right;
+    float: right; }
 
 .view-content.ui-accordion .ui-accordion-header h3:focus, .view-content.ui-accordion .ui-accordion-header h3:active {
   background: black;
